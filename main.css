@@ -13,23 +13,74 @@ header, section, footer, aside, nav, article, hgroup{
 
 body{
 	text-align:center;
+	font-size: 62.5%; 
+	font:Tahoma;
+	color:white; 
+	background: url('images/body-bg.jpg'); 
+	padding-top: 0px;
 }
  
-#big_wrapper{
-	 border 1px solid gray;
-	 width:1000px;
-	 margin:20px auto;
+#main_div{
+	 border: 2px solid green;
+	 width:1200px;
+	 margin: 20px auto;
 	 text-align:left;
 }
 
 #top_header{
-	background:green;
+	background:green; 
 	color:white;
+	padding:20px;
+	border: 1px solid green;
 }
 
-#top_menu{
+#Top_Menu{
+	background: url('images/bg.png');
+	color:white;
+	border: 1px solid Black;
+	
+}
+
+#Top_Menu li{
+	color:black;
 	display:inline-block;
 	list-style:none;
 	padding:5px;
 	font:bold 14px Tahoma;
+}
+
+#main_section{
+	float:left;
+	width:720px;
+	margin:10px;
+}
+ 
+#side_news{
+	float:right;
+	width:350px;
+	margin:15px 0px;
+	padding:30px;
+	background:url('images/Movies1.png');
+	color:Yellow;
+}
+#thefooter{
+	clear:both;
+	text-align:center;
+	padding:10px;
+	margin:10px 0px;
+	border-top:2px solid green
+}
+
+article{
+	background:#FFFCCC;
+	border:1px solid red;
+	padding:5px;
+	margin-bottom:15px;
+	color:black;
+}
+
+
+article footer{
+	text-align:right;
+	color:black;
 }
