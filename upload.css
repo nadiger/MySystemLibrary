@@ -1,0 +1,20 @@
+upload_Section{
+	border:10px solid blue;
+	-webkit-box-flex: 1;
+	margin:10px;
+	padding:5px;
+}
+
+art1{
+	border:10px solid blue;
+	-webkit-box-flex: 1;
+	margin:10px;
+	padding:5px;
+}
+
+art2{
+	border:1000px solid blue;
+	-webkit-box-flex: 1;
+	margin:1000px;
+	padding:500px;
+}
